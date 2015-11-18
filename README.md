@@ -3,7 +3,12 @@
 Este WebComponent integra https://github.com/winterbe/streamjs como
 elemento ao Polymer. 
 
-__Exemplo de uso__ 
+__Instalando:__
+
+    bower install --save joao-parana/streamjs-import
+
+
+__Exemplo de uso:__ 
 
     <!doctype html>
     <html>
