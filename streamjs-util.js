@@ -1,5 +1,5 @@
-//  Tenho que garantir que o streamjs está Pronto  
-var ensureStreamJSDOMIsReady = function(callback) {
+//  Tenho que garantir que o streamjs está Pronto
+var ensureStreamJSIsReady = function(callback) {
   var streamJSNotReady = function() {
     if ('undefined' != (typeof Stream) &&
         'undefined' != (typeof Stream.range)) {
